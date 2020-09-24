@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>REGISTRATION FORM</title>
+    <style>
+      table {
+  table-layout: fixed;
+  width: 60%;
+
+}
+
+.body{
+  margin-left:10%;
+  margin-right: 7%;
+  background-color:aqua;
+
+}
+td{
+  font-size:120%;
+}
+h3{
+ font-size:150%;
+}
+h1{
+  text-align: center;
+  background-color: lightblue;
+}
+.dec
+{
+    font-size:120%;
+}
+
+.sec{
+  border-radius: 1rem;
+  border:2px solid black;
+  margin:2rem;
+  padding:1px 5px 5px 20px;
+}
+.img{
+  margin-left:60rem;
+  position:absolute;
+  border:1px solid black;
+  top:10rem;
+}
+
+.head{
+  position:relative;
+  z-index: 1;
+  bottom:2.5rem;
+  font-size:100%;
+
+}
+input {
+  border: 1.5px solid black;
+  border-radius: 4px;
+}
+.ba{
+  background-color: aqua;
+  width:11.5em;
+}
+.hj{
+  background-color: aqua;
+  width:19.5em;
+}
+.ac{
+  background-color: aqua;
+  width:20.1rem;
+}
+.ab{
+  background-color:aqua;
+  width:14.5rem;
+}
+    </style>
+  </head>
+  <body>
+  <div class="body">
+    <h1>REGISTRATION FORM</h1>
+    <div class="basic sec">
+      <div class="head ba">
+        <h3>BASIC DETAILS</h3>
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td>Form Number</td>
+            <td><input type="text"placeholder="Enter your form No." name="" value=""></td><td></td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td><input type="text" name="" placeholder="Sandeep Kumar"></td>
+          </tr>
+          <tr>
+            <td>Roll Number</td>
+            <td><input type="text" name="" placeholder="1906145"></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td><input type="date" name="" value=""></td>
+          </tr>
+          <tr>
+            <td>PWD</td>
+            <td><input type="radio" id="male" name="gender" value="male">
+            <label for="">Yes</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="">No</label></td>
+          </tr>
+          <tr>
+            <td>Category</td>
+            <td>
+              <select name = "Category">
+                <option value="" disabled selected hidden>Select Category</option>
+              <option value = "" >General</option>
+              <option value = "">OBC</option>
+              <option value = "">SC</option>
+              <option value = "">ST</option>
+             </select>
+           </td>
+          </tr>
+          <tr>
+            <td><label for="">Address</label></td>
+
+              <td><textarea id="" name="" rows="4" cols="50"></textarea></td>
+          </tr>
+          <tr>
+            <td>PIN  Code</td>
+            <td><input type="number" placeholder="Enter PIN Code"name="" value=""></td>
+          </tr>
+          <tr>
+            <td>Phone Number of Student</td><td><input type="number" placeholder="Enter Number" name="" value=""></td>
+          </tr>
+          <tr>
+            <td>Phone Number of Gaurdian</td><td><input type="number" placeholder="Enter Number"name="" value=""></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div class="acad sec">
+      <div class="head ac">
+        <h3>ACADEMIC INFORMATION</h3>
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td>Course</td>
+            <td>
+              <select name = "Course">
+                <option value="" disabled selected hidden>Select Branch</option>
+              <option value = "">B.Tech</option>
+              <option value = "">B.Arch</option>
+              <option value = "">Int. M.Sc.</option>
+              <option value = "">M.tech</option>
+              <option value="">M.Arch</option>
+              <option value="">Ph.D.</option>
+             </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Branch</td><td><input type="text" placeholder="Enter your Branch" name="" value=""></td>
+          </tr>
+          <tr>
+            <td>Semester</td><td><input type="number"placeholder="Enter your Semester" name="" value=""></td><td>(for which allotment will be done)</td>
+          </tr>
+          <tr>
+            <td>All India Rank</td><td><input type="text" placeholder="Enter your AIR" name="" value=""></td><td>(In JEE main/GATE)</td>
+          </tr>
+          <tr>
+            <td>Category Rank</td><td><input type="text" placeholder="Enter your Category Rank" name="" value=""></td><td>(In JEE main/GATE)</td>
+          </tr>
+          <tr>
+            <td>CGPA</td><td><input type="number" placeholder="Enter your CGPA"name="" value=""></td>
+          </tr>
+          <tr>
+            <td>BackLog</td><td><input type="radio" name="" value=""><label for="">Yes</label><input type="radio" name="" value=""><label for="">No</label></td>
+          </tr>
+          <td>Hostel Accomodation</td><td><input type="radio" name="" value=""><label for="">Yes</label><input type="radio" name="" value=""><label for="">No</label></td>
+          <tr>
+            <td>Name Of Hostel</td><td><input type="text" placeholder="Enter Hostel Name"name="" value=""></td>
+          </tr>
+          <tr>
+            <td>Room Number</td><td><input type="text" placeholder="Enter Room Number"name="" value=""></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+
+    <div class="acc-details sec">
+      <div class="head ab">
+        <h3>ACCOUNT DETAILS</h3>
+      </div>
+      <table>
+        <tr>
+          <td>Account Holder Name</td><td><input type="text"placeholder="Enter Account Holder Name" name="" value=""></td><td>(As per Bank Passbook)</td>
+        </tr>
+        <tr>
+          <td>Account Number</td><td><input type="text"placeholder="Enter Account Number" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Bank Name</td>
+          <td><input type="text" placeholder="Enter Bank Name"name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Branch Name</td>
+          <td><input type="text" name="" placeholder="Enter Branch Name"value=""></td>
+        </tr>
+
+      </table>
+    </div>
+  
+ 
+    <div class="dec sec">
+      
+       <div class="head hj">
+        <h3>TERMS AND CONDITIONS</h3>
+      </div>
+      <div id="dec">
+      <center><input type="checkbox"name=""value="">I certify that the above information provided by me is correct .<br><br>
+      <button type="submit" class="submit">Submit</button>
+  <button type="reset" class="Reset" >Reset</button></center>
+  </div>
+  </div>
+</div>
+  <div class="img">
+    <img src="user.png" alt="" width="150px" >
+  </div>
+
+
+  </body>
+</html>
